@@ -29,7 +29,7 @@ env = environ.Env(
         str,
         "django-insecure-j8op9)1q8$1&0^s&p*_0%d#pr@w9qj@1o=3#@d=a(^@9@zd@%j",
     ),
-    ALLOWED_HOSTS=(list, ["*"]),
+    ALLOWED_HOSTS=(list, [".vercel.app"]),
     CSRF_TRUSTED_ORIGINS=(list, ["http://localhost:8000"]),
 )
 
